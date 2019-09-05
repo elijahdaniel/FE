@@ -15,6 +15,10 @@ import {
   MessageButton
 } from './Styled'
 
+const Para = {
+  marginTop: '80px'
+}
+
 function UserProfile() {
   const [following, setFollowing] = useState('Follow')
   return (
@@ -27,7 +31,7 @@ function UserProfile() {
           <UserName>Connie Lane</UserName>
           <About>
             <span>@C_Lane</span>
-            <p>San Francisco, CA</p>
+              <p style={Para}>San Francisco, CA</p>
           </About>
         </UserInfo>
         <HeaderRight>

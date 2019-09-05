@@ -20,22 +20,22 @@ export const Header = styled.div`
        `
 
 export const Container = styled.div`
-  background: rgba(255, 255, 255, 0.851);
+
   margin: 0 auto;
 `
 
 // Left of header
 export const ProfileImg = styled.img`
-  width: 250px;
-  height: 250px;
-  border: 1px solid #f7f7f7;
-  border-radius: 50%;
-
-  @media (max-width: 500px) {
-    position: relative;
-    left: 90px;
-  }
-`
+         width: 250px;
+         height: 250px;
+         border: 1px solid #f7f7f7;
+         border-radius: 50%;
+         box-shadow: 0px 3px 14px -4px #000;
+          @media (max-width: 500px) {
+           position: relative;
+           left: 90px;
+         }
+       `
 
 export const UserInfo = styled.div`
   display: flex;
@@ -53,6 +53,7 @@ export const UserInfo = styled.div`
 export const UserName = styled.h1`
   font-size: 2.5rem;
   line-height: 15px;
+  color: white;
 `
 
 export const About = styled.p`
@@ -61,7 +62,7 @@ export const About = styled.p`
   flex-direction: column;
 
   span {
-    color: #b1b1b1;
+    color: white;
     font-weight: 600;
   }
 `
@@ -111,7 +112,7 @@ export const Card = styled.div`
   background: #f7f7f7;
   margin: 20px;
   transition: all 0.5s ease;
-  box-shadow: 0px 9px 15px -4px #ccc;
+  box-shadow: 0px 9px 15px -4px #000;
   color: white;
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
 

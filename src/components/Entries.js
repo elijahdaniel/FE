@@ -35,6 +35,7 @@ export default function Entries(props) {
             src={like}
             onClick={() => setLike(`${hearts.filled}`)}
             alt='like button'
+            style={{border: '0'}}
           />
         </CardBottomRight>
       </BottomOfCard>
